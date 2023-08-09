@@ -2,7 +2,7 @@ import { useState } from 'react';
 import './App.css';
 
 function App() {
-  const [word,setWord]=useState("yes");
+  const [word,setWord]=useState();
 
   const emojiDictionary={
     "😊":"smiling",
