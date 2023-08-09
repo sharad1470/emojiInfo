@@ -18,8 +18,11 @@ function App() {
     var inputKey=e.target.value;
     if(inputKey in emojiDictionary)
       setWord(emojiDictionary[inputKey]);
-    else  
+    else if(inputKey==="") 
+      setWord("");
+    else{
       setWord("No data in database");
+    }
     }
 
   const getEmojiName=(emoji)=>{
