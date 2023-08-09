@@ -6,6 +6,14 @@
   height: 40vmin;
   pointer-events: none;
 }
+input{
+  width:80%;
+  padding: 1rem;
+}
+
+.grey{
+  background-color: #61dafb;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
